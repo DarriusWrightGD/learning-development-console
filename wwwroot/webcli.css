@@ -1,0 +1,62 @@
+/*@font-face-------------------*/
+.webcli, .webcli-input
+{
+    font: 15px/15px 'Lucida Console', 'Consolas', 'Courier New' !important;
+}
+
+.webcli{
+    background: rgba(0,0,0,.7);
+    height: 300px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    padding:5px;
+    border: solid 1px rgba(255,255,255,.5);
+    box-shadow: 0 0 3px black, 0 0 8px black inset;
+    overflow: auto;
+}
+
+.webcli-input{
+    display: block;
+    width:100%;
+    background: transparent;
+    border: none;
+    color:white;
+    margin:0;
+    padding:0;
+    outline: none; /*Chrome*/
+}
+
+.webcli-input::-ms-clear{
+    display: none; /*Edge clear button*/
+}
+
+.webcli-cmd{color:lightgray}
+.webcli-ok{color:lightgreen}
+.webcli-error{color:red}
+.webcli-info{color:cyan}
+
+
+.webcli-table {color:lightgreen;     font: 15px/15px 'Lucida Console', 'Consolas', 'Courier New' !important;}
+.webcli-table td {padding:2px 5px;}
+.webcli-table td:first-child {padding-left: 0;}
+
+.webcli-label {color: lightgray;}
+.webcli-value {color:gray;}
+
+
+.webcli-busy{
+    width:24px; 
+    height:24px;
+    border-top: 2px solid lightblue;
+    border-radius: 50%;
+    border-right: 2px solid transparent;
+
+    margin: 4px 0;
+    animation: spin .6s linear infinite;
+}
+
+@keyframes spin{
+    to{transform: rotate(360deg);}
+}

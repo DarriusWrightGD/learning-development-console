@@ -1,0 +1,14 @@
+html{
+    height:100%;
+}
+
+body{
+    background: radial-gradient(#205983,#0A2742);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:#FFF;
+    text-shadow: 1px 1px 8px #000;
+}
+
+h1{
+    text-align: center;
+}

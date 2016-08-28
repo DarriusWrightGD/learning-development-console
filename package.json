@@ -1,0 +1,19 @@
+{
+  "name": "learning-development-console",
+  "version": "1.0.0",
+  "description": "Console for web apps",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "escape-html": "^1.0.3",
+    "express": "^4.14.0",
+    "live-server": "^1.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
